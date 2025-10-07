@@ -4690,52 +4690,65 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Name: GLACIA
 Class: Elite Four
 Pic: Elite Four Glacia
-Gender: Female
+Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer
+AI: Smart Trainer / Ace Pokemon
 Mugshot: Pink
 
-Sealeo
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Encore
+Ninetales-Alola @ Icy Rock  
+Ability: Snow Warning  
+Level: 53  
+EVs: 252 HP / 4 Def / 252 Spe  
+Timid Nature  
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe  
+- Aurora Veil  
+- Freeze-Dry  
+- Moonblast  
+- Extrasensory
+
+Beartic  
+Ability: Slush Rush  
+Level: 50  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Hail  
+- Close Combat  
+- Icicle Spear  
+- Earthquake
+
+Frosmoth  
+Ability: Ice Scales  
+Level: 50  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Blizzard  
+- Quiver Dance  
+- Giga Drain  
+- Bug Buzz
+
+Mamoswine  
+Ability: Snow Cloak  
+Level: 52  
+EVs: 4 HP / 252 Atk / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Icicle Crash  
+- Knock Off  
 - Body Slam
-- Hail
-- Ice Ball
 
-Glalie
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
-- Crunch
-- Icy Wind
-- Ice Beam
-
-Sealeo
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Attract
-- Double Edge
-- Hail
-- Blizzard
-
-Glalie
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Explosion
-- Hail
-- Ice Beam
-
-Walrein @ Sitrus Berry
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
+Walrein @ Leftovers  
+Ability: Ice Body  
+Level: 55  
+Shiny: Yes  
+EVs: 252 HP / 4 SpA / 252 Spe  
+Modest Nature  
+- Surf  
+- Blizzard  
+- Ice Beam  
 - Body Slam
-- Ice Beam
-- Sheer Cold
 
 === TRAINER_DRAKE ===
 Name: DRAKE

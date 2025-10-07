@@ -1164,3 +1164,7 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route101_2_Cave/scripts.inc"
 
 	.include "data/maps/Route101_2/scripts.inc"
+
+	.include "data/maps/PetalburgCity_Gym_2/scripts.inc"
+
+	.include "data/maps/EverGrandeCity_TadhgsRoom/scripts.inc"

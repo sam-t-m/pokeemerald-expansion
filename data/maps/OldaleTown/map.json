@@ -95,7 +95,7 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 15,
+      "x": 27,
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_OLDALE_TOWN_HOUSE2",
@@ -109,10 +109,17 @@
       "dest_warp_id": "0"
     },
     {
-      "x": 14,
+      "x": 26,
       "y": 6,
       "elevation": 0,
       "dest_map": "MAP_OLDALE_TOWN_MART",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_OLDALE_TOWN",
       "dest_warp_id": "0"
     }
   ],
@@ -173,7 +180,7 @@
     },
     {
       "type": "sign",
-      "x": 15,
+      "x": 27,
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -189,7 +196,7 @@
     },
     {
       "type": "sign",
-      "x": 16,
+      "x": 28,
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
