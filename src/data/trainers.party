@@ -4592,48 +4592,60 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: No
-AI: Basic Trainer / Force Setup First Turn
+AI: Smart Trainer / Ace Pokemon / Check Viability
 Mugshot: Purple
 
-Mightyena
-Level: 46
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Roar
-- Double Edge
-- Sand Attack
-- Crunch
+Sharpedo @ Life Orb  
+Ability: Speed Boost  
+Level: 46  
+EVs: 248 SpA / 248 Spe  
+Rash Nature  
+- Dark Pulse  
+- Hydro Pump  
+- Close Combat  
+- Protect  
 
-Shiftry
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Torment
-- Double Team
-- Swagger
-- Extrasensory
+Malamar @ Leftovers  
+Ability: Contrary  
+Level: 46  
+EVs: 252 HP / 252 SpD / 4 Spe  
+Careful Nature  
+- Superpower  
+- Psycho Cut  
+- Sleep Talk  
+- Rest  
 
-Cacturne
-Level: 46
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Leech Seed
-- Feint Attack
-- Needle Arm
-- Cotton Spore
+Roaring Moon @ Booster Energy  
+Ability: Protosynthesis  
+Level: 48  
+EVs: 248 Atk / 252 Spe  
+Jolly Nature  
+- Acrobatics  
+- Knock Off  
+- Earthquake  
+- Crunch  
 
-Crawdaunt
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Surf
-- Swords Dance
-- Strength
-- Facade
+Incineroar  
+Ability: Intimidate  
+Level: 48   
+EVs: 252 Atk / 252 Spe  
+Jolly Nature  
+- Darkest Lariat  
+- Flare Blitz  
+- Swords Dance  
+- U-turn  
 
-Absol @ Sitrus Berry
-Level: 49
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Rock Slide
-- Swords Dance
-- Slash
+Obstagoon @ Flame Orb  
+Ability: Guts  
+Level: 50  
+Shiny: Yes  
+EVs: 252 Atk / 252 Spe  
+Jolly Nature  
+- Facade  
+- Bulk Up  
+- Knock Off  
+- Ice Punch  
+
 
 === TRAINER_PHOEBE ===
 Name: PHOEBE
@@ -4646,50 +4658,63 @@ Double Battle: No
 AI: Basic Trainer
 Mugshot: Green
 
-Dusclops
-Level: 48
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Punch
-- Confuse Ray
-- Curse
-- Protect
+Sableye @ Focus Sash  
+Ability: Prankster  
+Level: 48  
+EVs: 252 HP / 252 Def  
+Relaxed Nature  
+IVs: 0 Atk  
+- Will-O-Wisp  
+- Hex  
+- Recover  
+- Dark Pulse  
 
-Banette
-Level: 49
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Grudge
-- Will O Wisp
-- Feint Attack
+Drifblim @ Sitrus Berry  
+Ability: Unburden  
+Level: 48  
+EVs: 252 HP / 252 Def  
+Bold Nature  
+- Baton Pass  
+- Strength Sap  
+- Minimize  
+- Will-O-Wisp  
 
-Sableye
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Double Team
-- Night Shade
-- Feint Attack
+Annihilape @ Chesto Berry  
+Ability: Defiant  
+Level: 50  
+EVs: 252 HP / 252 SpD  
+Careful Nature  
+- Bulk Up  
+- Rage Fist  
+- Drain Punch  
+- Rest  
 
-Banette
-Level: 49
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Psychic
-- Thunderbolt
-- Facade
+Dragapult @ Choice Specs  
+Ability: Infiltrator  
+Level: 50  
+EVs: 252 SpA / 252 Spe  
+Timid Nature  
+- Draco Meteor  
+- U-turn  
+- Flamethrower  
+- Shadow Ball  
 
-Dusclops @ Sitrus Berry
-Level: 51
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Ice Beam
-- Rock Slide
-- Earthquake
+Golurk @ Life Orb  
+Ability: Iron Fist  
+Level: 51  
+EVs: 252 HP / 252 Atk  
+Adamant Nature  
+- Thunder Punch  
+- Ice Punch  
+- Drain Punch  
+- Shadow Punch  
 
-=== TRAINER_GLACIA ===
-Name: GLACIA
+
+
+=== TRAINER_TADHG ===
+Name: TADHG
 Class: Elite Four
-Pic: Elite Four Glacia
+Pic: Elite Four Tadhg
 Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
@@ -4761,45 +4786,62 @@ Double Battle: No
 AI: Basic Trainer
 Mugshot: Blue
 
-Shelgon
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Rock Tomb
-- Dragon Claw
-- Protect
-- Double Edge
+Hydrapple @ Sitrus Berry  
+Ability: Regenerator  
+Level: 52  
+Tera Type: Grass  
+IVs: 0 Atk  
+- Earth Power  
+- Draco Meteor  
+- Giga Drain  
+- Nasty Plot  
 
-Altaria
-Level: 54
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Edge
-- Dragon Breath
-- Dragon Dance
-- Aerial Ace
+Haxorus @ Expert Belt  
+Ability: Mold Breaker  
+Level: 52  
+Tera Type: Dragon  
+EVs: 248 Atk / 12 SpD / 248 Spe  
+Jolly Nature  
+- First Impression  
+- Poison Jab  
+- Close Combat  
+- Outrage  
 
-Kingdra
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Smokescreen
-- Dragon Dance
-- Surf
-- Body Slam
+Goodra-Hisui @ Assault Vest  
+Ability: Gooey  
+Level: 53  
+Tera Type: Steel  
+EVs: 248 HP / 252 SpA  
+Quiet Nature  
+IVs: 0 Atk  
+- Draco Meteor  
+- Flash Cannon  
+- Flamethrower  
+- Acid Spray  
 
-Flygon
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Flamethrower
-- Crunch
-- Dragon Breath
-- Earthquake
+Baxcalibur @ Loaded Dice  
+Ability: Thermal Exchange  
+Level: 53  
+Tera Type: Dragon  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Adamant Nature  
+- Icicle Spear  
+- Glaive Rush  
+- Earthquake  
+- Dragon Dance  
 
-Salamence @ Sitrus Berry
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Dragon Claw
-- Rock Slide
-- Crunch
+Dragonite @ Choice Band  
+Ability: Multiscale  
+Level: 55  
+Shiny: Yes  
+Tera Type: Dragon  
+EVs: 252 Atk / 8 SpD / 248 Spe  
+Adamant Nature  
+- Outrage  
+- Extreme Speed  
+- Ice Spinner  
+- Earthquake  
+
 
 === TRAINER_ROXANNE_1 ===
 Name: ROXANNE
