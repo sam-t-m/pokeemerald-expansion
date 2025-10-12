@@ -456,7 +456,7 @@
 #define FLAG_REGISTERED_JUAN                 (TRAINER_REGISTERED_FLAGS_START + REMATCH_JUAN)
 #define FLAG_REGISTERED_SIDNEY               (TRAINER_REGISTERED_FLAGS_START + REMATCH_SIDNEY)
 #define FLAG_REGISTERED_PHOEBE               (TRAINER_REGISTERED_FLAGS_START + REMATCH_PHOEBE)
-#define FLAG_REGISTERED_GLACIA               (TRAINER_REGISTERED_FLAGS_START + REMATCH_GLACIA)
+#define FLAG_REGISTERED_TADHG                (TRAINER_REGISTERED_FLAGS_START + REMATCH_TADHG)
 #define FLAG_REGISTERED_DRAKE                (TRAINER_REGISTERED_FLAGS_START + REMATCH_DRAKE)
 #define FLAG_REGISTERED_WALLACE              (TRAINER_REGISTERED_FLAGS_START + REMATCH_WALLACE)
 
@@ -1178,7 +1178,7 @@
 #define FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MASTER_BALL                 0x465 // Unused Flag, leftover from the Ruby Magma hideout
 #define FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MAX_ELIXIR                  0x466 // Unused Flag, leftover from the Ruby Magma hideout
 #define FLAG_ITEM_OLD_MAGMA_HIDEOUT_B2F_NEST_BALL                   0x467 // Unused Flag, leftover from the Ruby Magma hideout
-#define FLAG_UNUSED_0x468                                           0x468 // Unused Flag
+#define FLAG_ITEM_ROUTE101_2_CAVE_GREAT_BALL                        0x468
 #define FLAG_ITEM_MT_PYRE_2F_ULTRA_BALL                             0x469
 #define FLAG_ITEM_MT_PYRE_4F_SEA_INCENSE                            0x46A
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_WEST_MAX_REVIVE                 0x46B
@@ -1331,7 +1331,7 @@
 
 #define FLAG_DEFEATED_ELITE_4_SIDNEY                                0x4FB
 #define FLAG_DEFEATED_ELITE_4_PHOEBE                                0x4FC
-#define FLAG_DEFEATED_ELITE_4_GLACIA                                0x4FD
+#define FLAG_DEFEATED_ELITE_4_TADHG                                 0x4FD
 #define FLAG_DEFEATED_ELITE_4_DRAKE                                 0x4FE
 
 #define FLAG_UNUSED_0x4FF                                           0x4FF // Unused Flag

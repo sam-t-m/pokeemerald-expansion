@@ -2335,14 +2335,14 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Phoebe = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Glacia = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tadhg = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_3,//OBJ_EVENT_PAL_TAG_NPC_2,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
     .size = 256,
     .width = 16,
     .height = 32,
-    .paletteSlot = PALSLOT_NPC_2,
+    .paletteSlot = PALSLOT_NPC_3,
     .shadowSize = SHADOW_SIZE_M,
     .inanimate = FALSE,
     .compressed = FALSE,
@@ -2350,7 +2350,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Glacia = {
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Glacia,
+    .images = sPicTable_Tadhg,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

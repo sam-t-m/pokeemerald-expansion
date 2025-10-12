@@ -2272,13 +2272,12 @@ MatchCall_Text_Phoebe::
 	.string "your bond has grown with your\l"
 	.string "POKéMON.$"
 
-MatchCall_Text_Glacia::
-	.string "GLACIA: Hello, {PLAYER}.\p"
-	.string "I trust you haven't become\n"
-	.string "complacent with your power?\p"
-	.string "If you feel the need to cool your\n"
-	.string "hot emotions just a little, do come\l"
-	.string "to the POKéMON LEAGUE…$"
+MatchCall_Text_Tadhg::
+	.string "TADHG: Hello, {PLAYER}.\p"
+	.string "If you're feeling confident\n"
+	.string "You should come back up \p"
+	.string "to the POKéMON LEAGUE…\n"
+	.string "for a rematch…$"
 
 MatchCall_Text_Drake::
 	.string "DRAKE: That voice… {PLAYER}, is it?\n"

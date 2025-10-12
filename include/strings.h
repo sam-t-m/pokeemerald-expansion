@@ -648,7 +648,7 @@ extern const u8 gText_Steven[];
 extern const u8 gText_Brawly[];
 extern const u8 gText_Winona[];
 extern const u8 gText_Phoebe[];
-extern const u8 gText_Glacia[];
+extern const u8 gText_Tadhg[];
 
 extern const u8 gText_MoveRelearnerPkmnLearnedMove[];
 extern const u8 gText_MoveRelearnerPkmnTryingToLearnMove[];
@@ -1938,7 +1938,7 @@ extern const u8 MatchCall_Text_Juan3[];
 extern const u8 MatchCall_Text_Juan4[];
 extern const u8 MatchCall_Text_Sidney[];
 extern const u8 MatchCall_Text_Phoebe[];
-extern const u8 MatchCall_Text_Glacia[];
+extern const u8 MatchCall_Text_Tadhg[];
 extern const u8 MatchCall_Text_Drake[];
 extern const u8 MatchCall_Text_Wallace[];
 

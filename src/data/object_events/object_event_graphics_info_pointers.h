@@ -120,7 +120,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MagmaMember
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MagmaMemberF;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sidney;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Phoebe;
-extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Glacia;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tadhg;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Drake;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Roxanne;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brawly;
@@ -373,7 +373,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_MAGMA_MEMBER_F] =           &gObjectEventGraphicsInfo_MagmaMemberF,
     [OBJ_EVENT_GFX_SIDNEY] =                   &gObjectEventGraphicsInfo_Sidney,
     [OBJ_EVENT_GFX_PHOEBE] =                   &gObjectEventGraphicsInfo_Phoebe,
-    [OBJ_EVENT_GFX_GLACIA] =                   &gObjectEventGraphicsInfo_Glacia,
+    [OBJ_EVENT_GFX_TADHG] =                    &gObjectEventGraphicsInfo_Tadhg,
     [OBJ_EVENT_GFX_DRAKE] =                    &gObjectEventGraphicsInfo_Drake,
     [OBJ_EVENT_GFX_ROXANNE] =                  &gObjectEventGraphicsInfo_Roxanne,
     [OBJ_EVENT_GFX_BRAWLY] =                   &gObjectEventGraphicsInfo_Brawly,

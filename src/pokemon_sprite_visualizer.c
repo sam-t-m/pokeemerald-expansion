@@ -377,7 +377,7 @@ const u8 gBattleBackgroundNames[][30] =
     [MAP_BATTLE_SCENE_AQUA]     = _("AQUA                    "),
     [MAP_BATTLE_SCENE_SIDNEY]   = _("SIDNEY                  "),
     [MAP_BATTLE_SCENE_PHOEBE]   = _("PHOEBE                  "),
-    [MAP_BATTLE_SCENE_GLACIA]   = _("GLACIA                  "),
+    [MAP_BATTLE_SCENE_TADHG]    = _("TADHG                   "),
     [MAP_BATTLE_SCENE_DRAKE]    = _("DRAKE                   "),
     [MAP_BATTLE_SCENE_FRONTIER] = _("FRONTIER                "),
     [MAP_BATTLE_SCENE_LEADER]   = _("LEADER                  "),
@@ -960,10 +960,10 @@ static void LoadBattleBg(u8 battleBgType, enum BattleEnvironments battleEnvironm
         DecompressDataWithHeaderVram(gBattleEnvironmentTilemap_Stadium, (void*)(BG_SCREEN_ADDR(26)));
         LoadPalette(gBattleEnvironmentPalette_StadiumPhoebe, 0x20, 0x60);
         break;
-    case MAP_BATTLE_SCENE_GLACIA:
+    case MAP_BATTLE_SCENE_TADHG:
         DecompressDataWithHeaderVram(gBattleEnvironmentTiles_Stadium, (void*)(BG_CHAR_ADDR(2)));
         DecompressDataWithHeaderVram(gBattleEnvironmentTilemap_Stadium, (void*)(BG_SCREEN_ADDR(26)));
-        LoadPalette(gBattleEnvironmentPalette_StadiumGlacia, 0x20, 0x60);
+        LoadPalette(gBattleEnvironmentPalette_StadiumTadhg, 0x20, 0x60);
         break;
     case MAP_BATTLE_SCENE_DRAKE:
         DecompressDataWithHeaderVram(gBattleEnvironmentTiles_Stadium, (void*)(BG_CHAR_ADDR(2)));

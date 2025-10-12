@@ -34,9 +34,6 @@ $(OBJEVENTGFXDIR)/people/brendan/underwater.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/elite_four/drake.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/people/elite_four/glacia.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
-
 $(OBJEVENTGFXDIR)/people/elite_four/phoebe.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
@@ -4933,4 +4930,7 @@ $(MISCGFXDIR)/emotes.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/misc/ball_%.4bpp: $(OBJEVENTGFXDIR)/misc/ball_%.png ; $(GFX) $< $@ -mwidth 2 -mheight 4
 
 graphics/door_anims/battle_tower_multi_corridor.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/elite_four/tadhg.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4

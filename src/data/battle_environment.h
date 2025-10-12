@@ -256,7 +256,7 @@ const struct BattleEnvironment gBattleEnvironmentInfo[BATTLE_ENVIRONMENT_COUNT] 
         },
     },
 
-    [BATTLE_ENVIRONMENT_GLACIA] =
+    [BATTLE_ENVIRONMENT_TADHG] =
     {
         .background =
         {
@@ -264,7 +264,7 @@ const struct BattleEnvironment gBattleEnvironmentInfo[BATTLE_ENVIRONMENT_COUNT] 
             .tilemap = gBattleEnvironmentTilemap_Stadium,
             .entryTileset = gBattleEnvironmentAnimTiles_Building,
             .entryTilemap = gBattleEnvironmentAnimTilemap_Building,
-            .palette = gBattleEnvironmentPalette_StadiumGlacia,
+            .palette = gBattleEnvironmentPalette_StadiumTadhg,
         },
     },
 
@@ -428,7 +428,7 @@ static const struct {
     {MAP_BATTLE_SCENE_AQUA,     BATTLE_ENVIRONMENT_AQUA},
     {MAP_BATTLE_SCENE_SIDNEY,   BATTLE_ENVIRONMENT_SIDNEY},
     {MAP_BATTLE_SCENE_PHOEBE,   BATTLE_ENVIRONMENT_PHOEBE},
-    {MAP_BATTLE_SCENE_GLACIA,   BATTLE_ENVIRONMENT_GLACIA},
+    {MAP_BATTLE_SCENE_TADHG,    BATTLE_ENVIRONMENT_TADHG},
     {MAP_BATTLE_SCENE_DRAKE,    BATTLE_ENVIRONMENT_DRAKE},
     {MAP_BATTLE_SCENE_FRONTIER, BATTLE_ENVIRONMENT_FRONTIER}
 };

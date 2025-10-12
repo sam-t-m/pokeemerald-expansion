@@ -373,10 +373,10 @@ const u8 gText_MatchCallEliteFour_Phoebe_Pokemon[] = _("There's nothing definite
 const u8 gText_MatchCallEliteFour_Phoebe_Intro1[] = _("I wonder how my grandma at");
 const u8 gText_MatchCallEliteFour_Phoebe_Intro2[] = _("MT. PYRE is doing?");
 
-const u8 gText_MatchCallEliteFour_Glacia_Strategy[] = _("I use items for help.");
-const u8 gText_MatchCallEliteFour_Glacia_Pokemon[] = _("Flaming passion in icy cold!");
-const u8 gText_MatchCallEliteFour_Glacia_Intro1[] = _("The ICE type can be better");
-const u8 gText_MatchCallEliteFour_Glacia_Intro2[] = _("trained in this hot land.");
+const u8 gText_MatchCallEliteFour_Tadhg_Strategy[] = _("My POKéMON love the hail");
+const u8 gText_MatchCallEliteFour_Tadhg_Pokemon[] = _("Ice POKéMON are my favourite");
+const u8 gText_MatchCallEliteFour_Tadhg_Intro1[] = _("It's ICE to meet you, haha");
+const u8 gText_MatchCallEliteFour_Tadhg_Intro2[] = _("What, no laugh for my ICE pun?");
 
 const u8 gText_MatchCallEliteFour_Drake_Strategy[] = _("Harness strong abilities.");
 const u8 gText_MatchCallEliteFour_Drake_Pokemon[] = _("The raw power of DRAGONS!");
@@ -465,7 +465,7 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
     [REMATCH_JUAN] = MCFLAVOR(DandyCharm_Juan),
     [REMATCH_SIDNEY] = MCFLAVOR(EliteFour_Sidney),
     [REMATCH_PHOEBE] = MCFLAVOR(EliteFour_Phoebe),
-    [REMATCH_GLACIA] = MCFLAVOR(EliteFour_Glacia),
+    [REMATCH_TADHG] = MCFLAVOR(EliteFour_Tadhg),
     [REMATCH_DRAKE] = MCFLAVOR(EliteFour_Drake),
     [REMATCH_WALLACE] = MCFLAVOR(Champion_Wallace),
 };

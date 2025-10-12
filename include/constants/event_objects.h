@@ -127,7 +127,7 @@
 #define OBJ_EVENT_GFX_MAGMA_MEMBER_F             120
 #define OBJ_EVENT_GFX_SIDNEY                     121
 #define OBJ_EVENT_GFX_PHOEBE                     122
-#define OBJ_EVENT_GFX_GLACIA                     123
+#define OBJ_EVENT_GFX_TADHG                      123
 #define OBJ_EVENT_GFX_DRAKE                      124
 #define OBJ_EVENT_GFX_ROXANNE                    125
 #define OBJ_EVENT_GFX_BRAWLY                     126

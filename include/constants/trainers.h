@@ -53,7 +53,7 @@
 #define TRAINER_PIC_GENTLEMAN             35
 #define TRAINER_PIC_ELITE_FOUR_SIDNEY     36
 #define TRAINER_PIC_ELITE_FOUR_PHOEBE     37
-#define TRAINER_PIC_ELITE_FOUR_GLACIA     38
+#define TRAINER_PIC_ELITE_FOUR_TADHG      38
 #define TRAINER_PIC_ELITE_FOUR_DRAKE      39
 #define TRAINER_PIC_LEADER_ROXANNE        40
 #define TRAINER_PIC_LEADER_BRAWLY         41
@@ -108,7 +108,8 @@
 #define TRAINER_PIC_LEAF                  90
 #define TRAINER_PIC_RS_BRENDAN            91
 #define TRAINER_PIC_RS_MAY                92
-#define TRAINER_PIC_COUNT                 93
+#define TRAINER_PIC_TADHG                 93
+#define TRAINER_PIC_COUNT                 94
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0

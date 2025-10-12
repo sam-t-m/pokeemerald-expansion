@@ -23,8 +23,13 @@
 #include "window.h"
 #include "constants/songs.h"
 #include "constants/rgb.h"
+#include "random.h"
+//#include <stdlib.h>
+//#include <time.h>
+
 
 #define STARTER_MON_COUNT   3
+#define GENS_COUNT 9
 
 // Position of the sprite of the selected starter Pokémon
 #define STARTER_PKMN_POS_X (DISPLAY_WIDTH / 2)
@@ -59,6 +64,15 @@ const u32 gBirchGrassTilemap[] = INCBIN_U32("graphics/starter_choose/birch_grass
 const u32 gBirchBagGrass_Gfx[] = INCBIN_U32("graphics/starter_choose/tiles.4bpp.smol");
 const u32 gPokeballSelection_Gfx[] = INCBIN_U32("graphics/starter_choose/pokeball_selection.4bpp.smol");
 static const u32 sStarterCircle_Gfx[] = INCBIN_U32("graphics/starter_choose/starter_circle.4bpp.smol");
+/// @brief 
+/// @param a 
+/// @param b 
+void swap(u8 *a, u8 *b)
+{
+    u8 tempInt =*a;
+    *a = *b;
+    *b = tempInt;
+}
 
 static const struct WindowTemplate sWindowTemplates[] =
 {
@@ -110,13 +124,81 @@ static const u8 sStarterLabelCoords[STARTER_MON_COUNT][2] =
     {8, 4},
 };
 
+static u16 sStarterMon[STARTER_MON_COUNT];
+static const u16 sStarterOptions[GENS_COUNT][STARTER_MON_COUNT]=
+{
+    {
+        SPECIES_BULBASAUR,
+        SPECIES_CHARMANDER,
+        SPECIES_SQUIRTLE
+    },
+    {
+        SPECIES_CHIKORITA,
+        SPECIES_CYNDAQUIL,
+        SPECIES_TOTODILE
+    },
+    {
+        SPECIES_TREECKO,
+        SPECIES_TORCHIC,
+        SPECIES_MUDKIP
+    },
+    {
+        SPECIES_TURTWIG,
+        SPECIES_CHIMCHAR,
+        SPECIES_PIPLUP
+    },
+    {
+        SPECIES_SNIVY,
+        SPECIES_TEPIG,
+        SPECIES_OSHAWOTT
+    },
+    {
+        SPECIES_CHESPIN,
+        SPECIES_FENNEKIN,
+        SPECIES_FROAKIE
+    },
+    {
+        SPECIES_ROWLET,
+        SPECIES_LITTEN,
+        SPECIES_POPPLIO
+    },
+    {
+        SPECIES_GROOKEY,
+        SPECIES_SCORBUNNY,
+        SPECIES_SOBBLE
+    },
+    {
+        SPECIES_SPRIGATITO,
+        SPECIES_FUECOCO,
+        SPECIES_QUAXLY
+    }
+};
+
+static u8 sStarterArray[GENS_COUNT];
+void RandomiseStarters(void)
+{
+    for(u8 i = 0; i < GENS_COUNT; i++){
+        sStarterArray[i] = i;
+    }
+    //srand(time(NULL));
+    for (u8 i = GENS_COUNT - 1; i > 0; i--){
+        u8 j = Random() % (i + 1);
+        swap(&sStarterArray[i], &sStarterArray[j]);
+    }
+
+    for (u8 i = 0; i < STARTER_MON_COUNT; i++){
+        sStarterMon[i] = sStarterOptions[sStarterArray[i]][i];
+    }
+}
+
+/*
 static const u16 sStarterMon[STARTER_MON_COUNT] =
 {
     SPECIES_ROWLET,
     SPECIES_FENNEKIN,
     SPECIES_PIPLUP,
 };
-
+*/
 static const struct BgTemplate sBgTemplates[3] =
 {
     {
@@ -439,6 +521,7 @@ void CB2_ChooseStarter(void)
     ShowBg(2);
     ShowBg(3);
 
+    RandomiseStarters();
     taskId = CreateTask(Task_StarterChoose, 0);
     gTasks[taskId].tStarterSelection = 1;
 

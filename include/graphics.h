@@ -277,7 +277,7 @@ extern const u16 gBattleEnvironmentPalette_StadiumAqua[];
 extern const u16 gBattleEnvironmentPalette_StadiumMagma[];
 extern const u16 gBattleEnvironmentPalette_StadiumSidney[];
 extern const u16 gBattleEnvironmentPalette_StadiumPhoebe[];
-extern const u16 gBattleEnvironmentPalette_StadiumGlacia[];
+extern const u16 gBattleEnvironmentPalette_StadiumTadhg[];
 extern const u16 gBattleEnvironmentPalette_StadiumDrake[];
 extern const u16 gBattleEnvironmentPalette_StadiumWallace[];
 
